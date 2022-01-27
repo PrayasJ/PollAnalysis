@@ -1,4 +1,4 @@
-pandas==1.4.0
+pandas
 geopy
 tqdm
 dask
