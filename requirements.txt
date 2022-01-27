@@ -2,7 +2,7 @@ pandas
 geopy
 tqdm
 dask
-whatthelang
+whatthelang==1.0.1
 nltk
 numpy
 tweepy
