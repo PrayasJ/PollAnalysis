@@ -1,8 +1,9 @@
+cython
 pandas
 geopy
 tqdm
 dask
-whatthelang==1.0.1
+whatthelang
 nltk
 numpy
 tweepy
