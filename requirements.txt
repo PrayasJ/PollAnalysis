@@ -1,3 +1,4 @@
+cython
 pandas
 geopy
 tqdm
@@ -5,6 +6,6 @@ dask
 whatthelang
 nltk
 numpy
-tweepy>=4.0.0
+tweepy
 collection
-fsspec>=0.3.3
+fsspec
