@@ -7,3 +7,4 @@ nltk
 numpy
 tweepy
 collection
+fsspec>=0.3.3
