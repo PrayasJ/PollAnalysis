@@ -1,10 +1,10 @@
-pandas>=1.3.5
+pandas
 geopy
 tqdm
 dask
 whatthelang
 nltk
 numpy
-tweepy>=4.0.0
+tweepy
 collection
-fsspec>=0.3.3
+fsspec
