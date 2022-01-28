@@ -31,10 +31,10 @@ class whysomean():
             geoParser.parse(filename)
 
             lp = languagePre()
-            filename = lp.parseInput(filename)
+            filename = lp.parseInput(filename['known'])
 
             tp = tokenizePoll()
-            tp.tokenize(filename)
+            tp.tokenize(filename['english'])
 
         else:
             if argv[0].lower() in self.commands['extract']:
@@ -61,7 +61,7 @@ class whysomean():
                     value = lp.parseInput(value)
 
                     tp = tokenizePoll()
-                    tp.tokenize(value)
+                    tp.tokenize(value['english'])
 
     def argParser(self, argv):
         if len(argv) == 2:
