@@ -4,16 +4,11 @@ import dask.dataframe as dd
 from tqdm import tqdm
 from dask.diagnostics import ProgressBar
 
-ProgressBar().register()
-
-data = {}
-
-locationDict = {}
-count = 30
-
 class GeoParser():
     def __init__(self):
+        ProgressBar().register()
         tqdm.pandas()
+        self.locationDict = {}
         self.geolocator = Nominatim(user_agent="http")
         pd.options.mode.chained_assignment = None
 
@@ -26,9 +21,9 @@ class GeoParser():
             return 'outside'
     
     def geoLocate(self, location):
-        if location not in locationDict:
-            locationDict[location] = self.geolocator.geocode(location, addressdetails=True, timeout = None)
-        return locationDict[location]
+        if location not in self.locationDict:
+            self.locationDict[location] = self.geolocator.geocode(location, addressdetails=True, timeout = None)
+        return self.locationDict[location]
 
     def parse(self, filename:str, place:str = 'Uttar Pradesh'):
         df = pd.read_pickle(filename)
