@@ -30,7 +30,7 @@ class GeoParser():
         #df = df.head(count)    
         
         ddf = dd.from_pandas(df, npartitions=30)
-        df['location'] = ddf.map_partitions(lambda loc: loc['location'].progress_apply(lambda l: self.geoLocate(l))).compute()
+        df['location'] = ddf.map_partitions(lambda loc: loc['location'].apply(lambda l: self.geoLocate(l))).compute()
         known = df.dropna()
         unknown = df[~df.index.isin(known.index)]
 
