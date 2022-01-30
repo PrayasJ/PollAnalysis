@@ -1,10 +1,5 @@
 import sys
 
-from tweetExtractor import TweetExtractor
-from geoParser import GeoParser
-from languagePre import languagePre
-from tokenizePoll import tokenizePoll
-
 class whysomean():
 
     commands = {
@@ -19,6 +14,11 @@ class whysomean():
         argv = sys.argv[1:]
 
         if argv[0].lower() in self.commands['all']:
+            from tweetExtractor import TweetExtractor
+            from geoParser import GeoParser
+            from languagePre import languagePre
+            from tokenizePoll import tokenizePoll
+
             value = self.argParser(argv)
             extractor = TweetExtractor()
             filename = ''
@@ -37,7 +37,10 @@ class whysomean():
             tp.tokenize(filename['english'])
 
         else:
+
             if argv[0].lower() in self.commands['extract']:
+                from tweetExtractor import TweetExtractor
+
                 extractor = TweetExtractor()
                 value = self.argParser(argv)
                 if value == None:
@@ -46,6 +49,8 @@ class whysomean():
                     value = value.split(',')
                     extractor.extract(value)
             elif argv[0].lower() in self.commands['geo']:
+                from geoParser import GeoParser
+
                 value = self.argParser(argv)
                 if value == None:
                     print('Pass some filename please uwu.')
@@ -53,6 +58,9 @@ class whysomean():
                     geoParser = GeoParser()
                     geoParser.parse(value)
             elif argv[0].lower() in self.commands['freq']:
+                from languagePre import languagePre
+                from tokenizePoll import tokenizePoll
+                
                 value = self.argParser(argv)
                 if value == None:
                     print('Pass some filename please uwu.')

@@ -1,5 +1,4 @@
-from whatthelang import WhatTheLang
-import pandas as pd
+z
 
 class languagePre():
     def __init__(self):
