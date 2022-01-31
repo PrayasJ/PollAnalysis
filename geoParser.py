@@ -35,6 +35,7 @@ class GeoParser():
         outfile = outfile.split('.')[0]
 
         for i, item in enumerate(np.array_split(df, 10)):
+            item = item.reset_index(drop=True)
             if exists("data/geo/"+outfile+"_"+str(i)+"_known.pkl"):
                 pass
             else:
