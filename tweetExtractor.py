@@ -43,6 +43,7 @@ class TweetExtractor():
         df.drop_duplicates(inplace=True, ignore_index=False)
         #df.to_csv(filename, encoding='utf-8', index=False)
         df.to_pickle(filename)
+        
 
         print('Extraction Complete!')
         return filename
