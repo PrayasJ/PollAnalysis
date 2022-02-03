@@ -1,7 +1,8 @@
-z
+import pandas as pd
 
 class languagePre():
     def __init__(self):
+        from whatthelang import WhatTheLang
         self.wtl = WhatTheLang()
 
     def parseInput(self, filename):
