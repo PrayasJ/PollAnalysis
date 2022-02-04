@@ -1,0 +1,6 @@
+heartfelt,1
+greeting,1
+foundation,1
+day,1
+http,1
+//t.co/2zqvg13yh1,1

@@ -1,0 +1,12 @@
+rt,1
+vpsecretariat,1
+greeting,1
+people,1
+pradesh,1
+state,1
+foundation,1
+day,1
+is,1
+known,1
+history,1
+…,1

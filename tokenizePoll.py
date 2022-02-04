@@ -5,6 +5,7 @@ import tqdm
 import pandas as pd
 import numpy as np
 from collections import defaultdict
+import os
 
 from nltk.stem import WordNetLemmatizer
 
@@ -25,31 +26,36 @@ class tokenizePoll():
         self.lemmatizer = WordNetLemmatizer()
         self.tags = ['FW', 'JJR', 'JJS', 'NN', 'NNS', 'NNP', 'NNPS', 'PDT', 'RB', 'RBR', 'RBS', 'RP', 'VB', 'VBG', 'VBD', 'VBN', 'VBP', 'VBZ']
 
-    def tokenize(self, filename):
+    def tokenize(self, filepath='data/geo/lang/'):
         wordSet = []
+        filenames = next(os.walk(filepath), (None, None, []))[2]
 
-        df = pd.read_pickle(filename)
+        for filename in filenames:
+            if filename[-6:-4] == 'hi':
+                continue
 
-        text = df['text'].to_list()
-        wordBox = []
+            df = pd.read_pickle(filepath + '/' + filename)
 
-        with mp.Pool() as pool:
-            #wordBox = pool.map(self.tokenize_func, text)
-            for _ in tqdm.tqdm(pool.map(self.tokenize_func, text), total=len(text)):
-                wordBox.append(_)
-        
-        wordSet = self.flatten(wordBox)
-        filtereddWordSet = [word[0] for word in wordSet if word[1] in self.tags]
-        
-        wordCount = defaultdict(int)
+            text = df['text'].to_list()
+            wordBox = []
 
-        for word in filtereddWordSet: wordCount[word] += 1
-        wordSortedIndex = sorted(wordCount, key= wordCount.get, reverse= True)
+            with mp.Pool() as pool:
+                #wordBox = pool.map(self.tokenize_func, text)
+                for _ in tqdm.tqdm(pool.map(self.tokenize_func, text), total=len(text)):
+                    wordBox.append(_)
+            
+            wordSet = self.flatten(wordBox)
+            filtereddWordSet = [word[0] for word in wordSet if word[1] in self.tags]
+            
+            wordCount = defaultdict(int)
 
-        outf = filename.split('.')[0]
+            for word in filtereddWordSet: wordCount[word] += 1
+            wordSortedIndex = sorted(wordCount, key= wordCount.get, reverse= True)
 
-        with open(outf + '_frequency.txt', 'w', encoding='utf-8') as outfile:
-            for word in wordSortedIndex:
-                outfile.write(word + ',' + str(wordCount[word]) + '\n')
-
-        return outf + '_frequency.txt'
+            fp = filepath + '/freq/' + filename
+            outf = fp.split('.')[0]
+            if not os.path.exists(filepath + '/freq/'):
+                os.makedirs(filepath + '/freq/')
+            with open(outf + '_frequency.txt', 'w', encoding='utf-8') as outfile:
+                for word in wordSortedIndex:
+                    outfile.write(word + ',' + str(wordCount[word]) + '\n')

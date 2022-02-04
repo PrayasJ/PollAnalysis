@@ -1,0 +1,10 @@
+@,2
+rt,1
+weuttarpradesh,1
+ha,1
+declared,1
+name,1
+assembly,1
+constituency,1
+http,1
+//t.co/…,1

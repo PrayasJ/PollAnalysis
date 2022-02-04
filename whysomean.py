@@ -6,7 +6,8 @@ class whysomean():
         'all' : ['--all', '-a'],
         'extract': ['--extract', '-e'],
         'geo': ['--geo', '-g'],
-        'freq': ['--freq', '-f']
+        'freq': ['--freq', '-f'],
+        'freq1': ['--freq1', '-f1']
     }
 
     def __init__(self):
@@ -34,7 +35,7 @@ class whysomean():
             filename = lp.parseInput(filename['known'])
 
             tp = tokenizePoll()
-            tp.tokenize(filename['english'])
+            tp.tokenize(filename)
 
         else:
 
@@ -59,17 +60,21 @@ class whysomean():
                     geoParser.parse(value)
             elif argv[0].lower() in self.commands['freq']:
                 from languagePre import languagePre
-                from tokenizePoll import tokenizePoll
-                
+
                 value = self.argParser(argv)
                 if value == None:
                     print('Pass some filename please uwu.')
                 else:
                     lp = languagePre()
                     value = lp.parseInput(value)
-
-                    tp = tokenizePoll()
-                    tp.tokenize(value['english'])
+                    
+                    # tp = tokenizePoll()
+                    # tp.tokenize(value)
+            elif argv[0].lower() in self.commands['freq1']:
+                from tokenizePoll import tokenizePoll
+                
+                tp = tokenizePoll()
+                tp.tokenize()
 
     def argParser(self, argv):
         if len(argv) == 2:
