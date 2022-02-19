@@ -1,9 +1,9 @@
-rt,2
+rt,3
+@,2
 पुरानी,2
 पेंशन,2
 देने,2
 वालों,2
-@,1
 roflgandhi_,1
 samajh,1
 gayi,1
@@ -25,3 +25,13 @@ upelections,1
 मध्य,1
 होगा,1
 देखते…,1
+gopalkagarwal,1
+growth,1
+pradesh,1
+join,1
+today,1
+pm,1
+be,1
+part,1
+discussion,1
+election,1

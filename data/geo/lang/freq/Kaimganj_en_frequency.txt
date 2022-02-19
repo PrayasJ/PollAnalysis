@@ -1,10 +1,11 @@
-@,9
-http,4
-rt,3
-baba,3
-ji,3
-return,3
+@,10
+http,6
+rt,4
+baba,4
+ji,4
+return,4
 के,3
+yogiwillbeback,2
 को,2
 बड़ा,2
 roflgandhi_,1
@@ -16,7 +17,6 @@ pari,1
 😹😹,1
 //t.co/untbyxgiwu,1
 yogireturns,1
-yogiwillbeback,1
 babji_return_2022,1
 myogioffice…,1
 //t.co/eaujjpz1rg,1
@@ -57,3 +57,11 @@ bjp4up,1
 bjp4,1
 myogiadityanath…,1
 //t.co/pd4t2hcw9i,1
+kanha_ki_duniya,1
+just,1
+see,1
+reality,1
+rld,1
+🔥,1
+yogiadityanath,1
+//t.co/tm2ay6iddc,1

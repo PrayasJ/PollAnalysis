@@ -1,7 +1,8 @@
+rt,2
 samajwadiparty,2
-rt,1
+@,2
+door,2
 jantakareporter,1
-@,1
 suffered,1
 jolt,1
 kanpur,1
@@ -10,3 +11,15 @@ including,1
 suhail,1
 ahmad,1
 left…,1
+anshuinc,1
+aicc,1
+g,1
+smt,1
+priyanka,1
+gandhi,1
+’,1
+s,1
+campaign,1
+program,1
+tomorrow,1
+campaign…,1

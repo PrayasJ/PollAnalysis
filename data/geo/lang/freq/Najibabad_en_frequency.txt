@@ -1,5 +1,6 @@
-http,2
+http,5
 rt,2
+jalalabad,2
 //t.co/xsfy6oz2jd,1
 //t.co/y2tn8jihmo,1
 ians_india,1
@@ -23,3 +24,7 @@ rulled,1
 twice,1
 couldnot।,1
 onl…,1
+patangkanishaan,1
+//t.co/awttlpjmiu,1
+//t.co/ghnxwq6oly,1
+//t.co/nujrv1rcgf,1

@@ -1,6 +1,7 @@
-@,5
-http,5
-rt,4
+@,7
+rt,6
+http,6
+watch,2
 democraticup,1
 …,1
 newsnownation,1
@@ -15,7 +16,6 @@ leader,1
 going,1
 in…,1
 rohitupadhyaay,1
-watch,1
 raghuraj_bhadri,1
 ’,1
 interview,1
@@ -25,3 +25,17 @@ jsdl_official,1
 //t.co/05jknmcs9j,1
 gauravbh,1
 //t.co/elsxesaucv,1
+tv9uttarpradesh,1
+abuttarchahiye,1
+दिन,1
+पहले,1
+जागो,1
+इधर,1
+मिठाई,1
+उधर,1
+खटाई,1
+और,1
+हो,1
+गया,1
+काम,1
+priyasi90,1

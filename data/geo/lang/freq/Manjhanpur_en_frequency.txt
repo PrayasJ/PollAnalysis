@@ -1,5 +1,5 @@
-@,14
-rt,11
+@,16
+rt,12
 space,8
 join,5
 twitter,5
@@ -12,6 +12,13 @@ mks_bjp,3
 be,3
 most,2
 happening,2
+kuldeepboom,2
+book,2
+tour,2
+call,2
+deal,2
+mail,2
+sale,2
 shobhabjp,2
 tune,2
 participate,2
@@ -24,13 +31,6 @@ speaking,1
 hosted,1
 nmappvrtualmeet,1
 today,1
-kuldeepboom,1
-book,1
-tour,1
-call,1
-deal,1
-mail,1
-sale,1
 dekhoapn…,1
 rajeshjha_,1
 i,1
@@ -71,3 +71,5 @@ sc,1
 लगा,1
 रहे,1
 हैं…,1
+goa,1
+dekhoap…,1

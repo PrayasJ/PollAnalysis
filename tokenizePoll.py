@@ -30,6 +30,8 @@ class tokenizePoll():
         wordSet = []
         filenames = next(os.walk(filepath), (None, None, []))[2]
 
+        freq = defaultdict(lambda: 0)
+
         for filename in filenames:
             if filename[-6:-4] == 'hi':
                 continue
@@ -59,3 +61,11 @@ class tokenizePoll():
             with open(outf + '_frequency.txt', 'w', encoding='utf-8') as outfile:
                 for word in wordSortedIndex:
                     outfile.write(word + ',' + str(wordCount[word]) + '\n')
+                    freq[word] += wordCount[word]
+            
+        freq = {k: v for k, v in sorted(freq.items(), key=lambda item: item[1], reverse=True)}
+        with open('data/geo/lang/freq/ALL.csv', 'w', encoding='utf-8') as outfile:
+            for key in freq:
+                outfile.write(key+','+str(freq[key])+'\n')
+
+        

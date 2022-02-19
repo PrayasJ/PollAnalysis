@@ -1,12 +1,12 @@
 @,5
 rt,3
+http,3
 मेरठ,2
 प्रेस,2
 वार्ता,2
 भागीदारी,2
 परिवर्तन,2
 मोर्चा,2
-http,2
 party,2
 poornima_mishra,1
 पहला,1
@@ -35,3 +35,9 @@ office,1
 today,1
 leader,1
 //t.co/fmttfxa7k5,1
+shot,1
+fired,1
+president,1
+sahab,1
+meerut,1
+//t.co/u7f7joy6yf,1

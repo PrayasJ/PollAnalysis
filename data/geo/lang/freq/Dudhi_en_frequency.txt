@@ -1,5 +1,6 @@
-rt,5
-@,5
+rt,6
+@,6
+http,3
 meghbulletin,2
 including,2
 sarfaraj,2
@@ -12,7 +13,6 @@ were,2
 planning,2
 spread,2
 vole…,2
-http,2
 bhupenderc19,1
 jayant,1
 ❤️,1
@@ -40,3 +40,17 @@ pe,1
 chadhna,1
 hai,1
 abe…,1
+rakesh14_arora,1
+priyankagandhi,1
+becomes,1
+cm,1
+ever,1
+then,1
+uttarpradesh,1
+school,1
+be,1
+👇,1
+bikini😜,1
+choice,1
+is,1
+//t.c…,1

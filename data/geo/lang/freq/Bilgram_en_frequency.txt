@@ -1,11 +1,12 @@
 only,6
-@,4
-http,4
+@,5
+http,5
 devide,2
 kite,2
 majlis,2
 asadowaisi…,2
 //t.co/axdcqrmmo1,2
+asadowaisi,2
 hardoi,2
 electioncommission,2
 best,1
@@ -20,9 +21,10 @@ mim,1
 give,1
 p,1
 face,1
-asadowaisi,1
 //t.co/08sgdrmm17,1
 rt,1
 ijarauli,1
 uttarpradeshelections,1
 //t.co/xbslpzjqju,1
+patangkanishaan,1
+//t.co/inu4kmxzsy,1

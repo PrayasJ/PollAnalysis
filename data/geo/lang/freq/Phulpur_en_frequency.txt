@@ -1,8 +1,8 @@
+@,7
 rt,6
-@,6
 किसानों,4
 को,4
-http,2
+http,3
 tv9uttarpradesh,2
 ने,2
 आवारा,2
@@ -47,3 +47,5 @@ rulled,1
 twice,1
 couldnot।,1
 onl…,1
+samajwadiparty,1
+//t.co/vpkfpp3lqq,1

@@ -1,6 +1,7 @@
+rt,14
 @,13
-rt,12
 meghbulletin,3
+http,3
 including,2
 sarfaraj,2
 sahid,2
@@ -34,8 +35,8 @@ assaulted,2
 resisting,2
 crime,2
 accused…,2
+pradesh,2
 gauravbh,2
-http,2
 roflgandhi_,1
 yadav,1
 say,1
@@ -58,7 +59,6 @@ amishdevgan,1
 ठाकुर,1
 super,1
 excl…,1
-pradesh,1
 up,1
 police,1
 register,1
@@ -82,3 +82,19 @@ are,1
 describing,1
 rule,1
 samajw…,1
+samajwadi,1
+party,1
+akhileshyadav,1
+also,1
+contest,1
+mubarakpur,1
+assembly,1
+constituency,1
+candid…,1
+selected,1
+best,1
+state,1
+tableau,1
+day,1
+parade,1
+//t.co/y3i5vcqd80,1

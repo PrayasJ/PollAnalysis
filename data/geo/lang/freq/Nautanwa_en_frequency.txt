@@ -1,9 +1,9 @@
+rt,6
+@,6
 को,6
 कांग्रेस,6
 और,6
 सपा,6
-rt,5
-@,5
 gauravbh,3
 भाजपा,3
 ने,3
@@ -33,3 +33,11 @@ were,2
 planning,2
 spread,2
 vole…,2
+mehulmittalm3,1
+jai,1
+ho,1
+maharaj,1
+ji,1
+ki,1
+http,1
+//t.co/tj0z84mniv,1

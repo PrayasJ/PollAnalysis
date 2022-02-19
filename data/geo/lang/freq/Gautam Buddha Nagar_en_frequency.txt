@@ -1,5 +1,5 @@
-@,12
-http,8
+@,13
+http,9
 rt,4
 myogiadityanath,3
 vote,2
@@ -77,3 +77,16 @@ are,1
 combindly,1
 contributing,1
 //t.co/jzfsclzoeb,1
+pankhuripathak,1
+pankhurioffice,1
+made,1
+visit,1
+society,1
+🛕,1
+expressed,1
+view,1
+day,1
+campaign,1
+..,1
+…,1
+//t.co/ybtvzfvvyt,1

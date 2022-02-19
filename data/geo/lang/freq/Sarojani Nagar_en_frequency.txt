@@ -1,5 +1,5 @@
-rt,10
-@,10
+@,14
+rt,11
 bipinandsingh,8
 understand,5
 i,4
@@ -16,6 +16,7 @@ be,3
 denied,3
 ticket,3
 sick…,3
+yogiadityanath,2
 more,2
 just,2
 go,2
@@ -39,7 +40,6 @@ mod…,2
 again,2
 pranaysharma02,1
 win,1
-yogiadityanath,1
 maqbool_sm,1
 had,1
 promised,1
@@ -54,3 +54,8 @@ am,1
 repeating,1
 http,1
 //t.co/3ysn17vuh4,1
+anubhavchak009,1
+republic_bharat,1
+bjp4india,1
+bjp4up,1
+myogioffice,1

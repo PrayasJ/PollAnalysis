@@ -1,6 +1,6 @@
+@,6
+rt,3
 %,3
-rt,2
-@,2
 i_am_anil_tyagi,1
 मेरा,1
 अनुमानित,1
@@ -19,3 +19,13 @@ congress,1
 cm,1
 candidate,1
 कांग्रेस_का_भर्ती…,1
+ips_santoshm,1
+route,1
+march,1
+area,1
+domination,1
+sensitization,1
+spokespersoneci,1
+ceoup,1
+uppolice,1
+election,1

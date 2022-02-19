@@ -1,8 +1,10 @@
-@,10
-rt,6
+@,13
+rt,8
 नगर,4
 का,3
 जी,2
+aimim,2
+http,2
 apsinghind,2
 kanpur,2
 आयुक्त,2
@@ -40,9 +42,7 @@ up,1
 khanumarfa,1
 thewire_in,1
 immoinafridi,1
-aimim,1
 asadowaisi,1
-http,1
 //t.co/5ytniaiw0u,1
 drgauravgarg4,1
 ha,1
@@ -56,3 +56,14 @@ month,1
 now,1
 others,1
 also…,1
+d7349181464,1
+owaisifiringmystery,1
+//t.co/ywjbyh11ce,1
+indiatoday,1
+is,1
+attack,1
+democracy,1
+country,1
+warispathan,1
+spokesperson,1
+newstrack,1

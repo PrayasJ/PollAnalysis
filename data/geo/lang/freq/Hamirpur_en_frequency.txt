@@ -1,18 +1,18 @@
-@,18
-rt,16
+@,19
+rt,17
 के,7
-http,6
+http,7
 चुनाव,4
 ने,4
 अखिलेश,4
 में,4
 से,3
+gauravbh,3
 यादव,3
 का,3
 को,3
 tv9uttarpradesh,3
 ’,2
-gauravbh,2
 //t.co/elsxesaucv,2
 ➡अखिलेश,2
 करहल,2
@@ -180,3 +180,4 @@ misconduct…,1
 रघुराज,1
 प्रताप,1
 के…,1
+//t.co/r7mksi1smd,1

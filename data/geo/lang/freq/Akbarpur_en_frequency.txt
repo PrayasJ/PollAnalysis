@@ -1,6 +1,6 @@
-http,6
-rt,5
-@,5
+rt,7
+@,7
+http,7
 roflgandhi_,2
 samajh,2
 gayi,2
@@ -21,3 +21,27 @@ conference,1
 nda,1
 //t.co/ghphku7udx,1
 usmankhan92786,1
+isamarths,1
+shivsena,1
+come,1
+support,1
+samajwadi,1
+party,1
+mp,1
+sanjay,1
+raut,1
+say,1
+change,1
+is,1
+happen,1
+pradesh,1
+yada…,1
+𝐁𝐀𝐋𝐋𝐎𝐓,1
+𝐢𝐬,1
+𝐬𝐭𝐫𝐨𝐧𝐠𝐞𝐫,1
+𝐭𝐡𝐚𝐧,1
+𝐓𝐇𝐄,1
+𝐁𝐔𝐋𝐋𝐄𝐓,1
+upelections2022,1
+igrangeayodhya,1
+//t.co/s263rn3bv0,1

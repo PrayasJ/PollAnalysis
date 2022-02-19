@@ -1,6 +1,6 @@
-rt,5
+rt,7
+@,7
 के,4
-@,4
 से,3
 प्रसाद,2
 ने,2
@@ -86,3 +86,15 @@ loksaverahindi,1
 मुनिद्रा,1
 शुक्ला,1
 रसूलाबाद…,1
+amisri,1
+equation,1
+win,1
+themojostory,1
+campaign,1
+trail,1
+assemblyelections2022,1
+bdutt,1
+talk,1
+samajwadiparty,1
+chief,1
+ya…,1
